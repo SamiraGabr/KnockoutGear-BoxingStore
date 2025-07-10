@@ -1,0 +1,77 @@
+.account, .admin {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.account-forms {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.login-form, .register-form {
+    flex: 1;
+    min-width: 300px;
+}
+
+.account form, .admin form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.account input, .account select, .admin input, .admin select, .admin textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.admin textarea {
+    height: 100px;
+}
+
+.admin table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.admin th, .admin td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.admin th {
+    background: #f4f4f4;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+}
+
+.update-form input {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}

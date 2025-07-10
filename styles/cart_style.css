@@ -1,0 +1,39 @@
+.cart {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cart table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.cart th, .cart td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.cart th {
+    background: #f4f4f4;
+}
+
+.remove-item {
+    padding: 5px 10px;
+    background: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff0000;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
