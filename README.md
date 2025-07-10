@@ -3,6 +3,22 @@
 Knockout Gear is a full-stack e-commerce web application meticulously crafted for an online boxing equipment store. It empowers users to seamlessly browse and purchase boxing gear, manage their accounts, submit product reviews, and track their orders. On the administrative side, it provides robust tools for efficient product management. The application boasts a responsive design, featuring a dynamic boxing-themed aesthetic, complete with an engaging hero video on the homepage and a distinctive ring-patterned background.
 
 -----
+## 🛠️ Technologies Used
+
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+-------
+
+##  Demo
+
+
+https://github.com/user-attachments/assets/b4bf73d6-b288-4836-89de-ac9e94eb41a7
+
+-----
 
 ##  Features
 
@@ -75,53 +91,61 @@ Knockout Gear is packed with functionalities for both customers and administrato
 ## 📂 Directory Structure
 
 ```
-boxing_store/
+KnockoutGear/
 ├── config/
-│   └── db_connect.php                 # Database connection configuration
+│   └── db_connect.php
 ├── images/
-│   ├── store_logo.png                 # Store logo
-│   ├── hero_video.mp4                 # Homepage hero video
-│   ├── ring_pattern.png               # Background pattern
-│   └── products/                      # Product images (e.g., gloves/, clothing/)
+│   ├── boxing_gloves.jpg
+│   ├── mouthguard.png
+│   ├── store_logo.png
+│   ├── coach.png
+│   ├── championship_belt.png
+│   ├── ring_pattern.png
+│   ├── boxing_bag.jpg
+│   ├── training_gear.png
+│   └── hero_video.mp4
 ├── includes/
-│   ├── account.inc.php                # Login and registration logic
-│   ├── cart.inc.php                   # Cart operations (add/remove items)
-│   ├── cart_page.inc.php              # Cart page data fetching
-│   ├── checkout.inc.php               # Checkout and order placement logic
-│   ├── index.inc.php                  # Homepage product fetching
-│   ├── orders.inc.php                 # Order history and details
-│   ├── products.inc.php               # Product listing and filtering
-│   ├── reviews.inc.php                # Review submission and display
-│   ├── search.inc.php                 # Search functionality
-│   └── user.inc.php                   # Admin product management
+│   ├── account.inc.php
+│   ├── cart.inc.php
+│   ├── cart_page.inc.php
+│   ├── checkout.inc.php
+│   ├── index.inc.php
+│   ├── products.inc.php
+│   ├── orders.inc.php
+│   ├── reviews.inc.php
+│   ├── search.inc.php
+│   ├── user.inc.php
+│   └── wishlist.inc.php
 ├── scripts/
-│   ├── main.js                        # General client-side JavaScript
-│   └── products_script.js             # Cart addition via AJAX
+│   ├── products_script.js
+│   └── main.js
 ├── styles/
-│   ├── account_style.css              # Styles for account and admin pages
-│   ├── cart_style.css                 # Cart page styles
-│   ├── home_style.css                 # Homepage styles
-│   ├── nav_foot_style.css             # Navigation and footer styles
-│   ├── order_style.css                # Orders and checkout page styles
-│   ├── products_style.css             # Products and search page styles
-│   └── reviews_style.css              # Reviews page styles
+│   ├── cart_style.css
+│   ├── home_style.css
+│   ├── products_style.css
+│   ├── nav_foot_style.css
+│   ├── order_style.css
+│   ├── reviews_style.css
+│   └── account_style.css
 ├── templates/
-│   ├── footer.php                     # Footer for all pages
-│   ├── logo.php                       # Store logo component
-│   ├── logout.php                     # Logout functionality
-│   ├── nav.php                        # Navigation bar
-│   └── user_cart.php                  # Cart summary for navigation
-├── account.php                        # User login, registration, and profile
-├── admin.php                          # Admin panel for product management
-├── cart.php                           # Shopping cart page
-├── checkout.php                       # Checkout and order placement
-├── index.php                          # Homepage with featured products
-├── orders.php                         # Order history and details
-├── products.php                       # Product listing with filters
-├── reviews.php                        # Product review submission and display
-├── search.php                         # Product search page
-├── boxing_store.sql                   # Database schema and sample data
-└── README.md                          # This file
+│   ├── footer.php
+│   ├── logo.php
+│   ├── logout.php
+│   ├── nav.php
+│   └── user_cart.php
+├── README.md
+├── account.php
+├── cart.php
+├── checkout.php
+├── index.php
+├── admin.php
+├── products.php
+├── orders.php
+├── boxing_store.sql
+├── reviews.php
+├── search.php
+└── wishlist.php
+
 ```
 
 -----
@@ -144,7 +168,7 @@ Before you begin, ensure you have the following installed:
 1.  **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/your-username/knockout_gear.git
+    git clone https://github.com/Samira-Gabr/KnockoutGear-BoxingStore.git
     cd knockout_gear
     ```
 
@@ -171,7 +195,7 @@ Before you begin, ensure you have the following installed:
 
 3.  **Configure the Web Server:**
 
-      * Place the entire `boxing_store` folder into your web server's root directory (e.g., `htdocs` for XAMPP).
+      * Place the entire `KnockoutGear` folder into your web server's root directory (e.g., `htdocs` for XAMPP).
       * Ensure the `images/products/` directory has **write permissions** to allow administrators to upload product images (e.g., `chmod 777 images/products/` on Linux/macOS, or adjust permissions via your OS's file explorer).
 
 4.  **Add Images and Video:**
@@ -185,7 +209,7 @@ Before you begin, ensure you have the following installed:
 5.  **Start the Server:**
 
       * Start your Apache and MySQL services (e.g., using the XAMPP control panel).
-      * Access the application by navigating to `http://localhost/boxing_store/` in your web browser.
+      * Access the application by navigating to `http://localhost/KnockoutGear/` in your web browser.
 
 -----
 
