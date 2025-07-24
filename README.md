@@ -15,8 +15,7 @@ Knockout Gear is a full-stack e-commerce web application meticulously crafted fo
 
 ##  Demo
 
-
-https://github.com/user-attachments/assets/b4bf73d6-b288-4836-89de-ac9e94eb41a7
+https://github.com/user-attachments/assets/d9817c08-58fc-4a94-b3c4-920198850893
 
 -----
 
