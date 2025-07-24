@@ -75,3 +75,31 @@
 .error {
     color: red;
 }
+
+.account h2 {
+    font-size: 2.5rem;
+    color: #e63946; 
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: bold;
+    border-bottom: 3px solid #e63946;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.account .login-form h3,
+.account .register-form h3,
+.account h3 {
+    font-size: 1.8rem;
+    color: #1d3557; 
+    margin-bottom: 20px;
+    border-left: 5px solid #1d3557;
+    padding-left: 15px;
+    font-weight: 600;
+}
+
+.account h2:hover,
+.account h3:hover {
+    color: #457b9d;
+    transition: 0.3s ease;
+}

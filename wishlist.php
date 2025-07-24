@@ -21,6 +21,7 @@ if (isset($_SESSION['user_id'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wishlist - Knockout Gear</title>
     <link rel="stylesheet" href="styles/products_style.css">
+    <link rel="stylesheet" href="styles/home_style.css">
     <link rel="stylesheet" href="styles/nav_foot_style.css">
 </head>
 <body>

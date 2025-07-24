@@ -11,6 +11,7 @@ require_once 'includes/reviews.inc.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reviews - Knockout Gear</title>
     <link rel="stylesheet" href="styles/reviews_style.css">
+    <link rel="stylesheet" href="styles/home_style.css">
     <link rel="stylesheet" href="styles/nav_foot_style.css">
 </head>
 <body>
